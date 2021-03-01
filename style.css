@@ -1,0 +1,69 @@
+html {
+    margin:0px;
+    padding:0px;
+    height: 100%;
+}
+body {
+    margin-top:0px;
+    height: 100%;
+    color: black;
+    background-color:white;
+    padding: 4%;
+}
+p {
+    text-align: left;
+    font-family: cursive;
+    font-size: 17px;
+}
+p strong {
+    font-size:25px;
+    color: #2E2E2E;
+}
+.nota {
+    opacity: 0.8;
+    background-color:lightcyan;
+}
+h1, h2 {
+    font-family:Consolas;
+    background-color:#FA5858;
+    border: 5px solid black;
+    margin-right: auto;
+}
+#logomarca {
+    width: 200px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    border: 5px solid black;
+    padding: 30px 30px 30px 30px;
+}
+iframe {
+    display:block;
+    margin:auto;
+
+}
+a:link {
+    color: black;
+    background-color:silver;
+    font-family: Arial;
+    text-decoration: none;
+}
+a:hover {
+    color:red;
+}
+a {
+    background-image:url('img/globo.png');
+    background-repeat:no-repeat;
+    padding-left:20px;
+}
+ol, ul {
+    border: 1px solid black;
+    font-family: cursive;
+}
+img:not(#logomarca) {
+    border: 4px solid red; /*não consegui esse desafio, nao entendi o que você queria exatamente :/ */
+}
+link a:li {
+    color:red;
+}
